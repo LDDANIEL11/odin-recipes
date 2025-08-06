@@ -4,8 +4,15 @@ body {
   background-color: darkkhaki;
 }
 
+@font-face {
+  font-family: firacode;
+  src: url(./FiraCode-Bold.ttf);
+}
+
 .header {
   display: flex;
+  font-family: firacode, monospace;
+
   justify-content: center;
   align-items: center;
   font-size: 30px;
@@ -27,6 +34,7 @@ body {
 
 .lasagna {
   display: flex;
+  font-family: firacode, monospace;
   flex-direction: column;
   text-align: center;
   font-size: 20px;
@@ -36,6 +44,8 @@ body {
 
 .macNcheese {
   display: flex;
+  font-family: firacode, monospace;
+
   flex-direction: column;
   text-align: center;
   font-size: 20px;
@@ -45,6 +55,8 @@ body {
 
 .mojito {
   display: flex;
+  font-family: firacode, monospace;
+
   flex-direction: column;
   text-align: center;
   font-size: 20px;
